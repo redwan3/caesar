@@ -32,7 +32,7 @@ if __name__ == "__main__":
     except:
         # interactive mode: prompt user
         key = input("Key (char); 'A'= ")
-        ciphertext = inpt("Ciphertext: ")
+        ciphertext = input("Ciphertext: ")
     plaintext = decrypt(key, ciphertext)
     print(plaintext)
 
